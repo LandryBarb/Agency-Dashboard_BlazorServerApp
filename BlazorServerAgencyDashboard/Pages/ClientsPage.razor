@@ -28,7 +28,7 @@
                 <td>@client.Age</td>
                 <td>@client.Email</td>
               
-                @if (client.CanSubmit())
+                @if (client.CanSubmit()) //Might be better as a switch statement
                 {
                     <td class="text-success">Yes</td>
                 }
@@ -44,6 +44,7 @@
                 {
                     <td>No</td>
                 }
+
                 @if(client.ClientIsMinor())
                 {
                     <td class="text-danger">Minor</td>
@@ -69,25 +70,10 @@
 <button class="btn btn-primary" @onclick = "AddNewClient">Add New Client</button>
 @code {
     Client client = new Client();
-    int ShowAge()
-    {
-        int calcAge = (int)client.Age;
-        return calcAge;
-    }
-
-    int GetAge()
-    {
-        int currentYear = DateTime.Now.Year;
-        int age = currentYear - client.Birthdate.Value.Year;
-        int currentAge = (int)client.Age;
-        return currentAge;
-    }
-
+   
     protected override async Task OnInitializedAsync()
     {
         await ClientService.GetClients();
-
-
     }
 
     void ShowClient(int id)

@@ -9,16 +9,18 @@
         public int? Age { get; set; }
         public DateTime? Birthdate { get; set; }
         public bool HasHeadShots { get; set; } = false;
-        //public bool isMinor { get; set; } = false;
 
+
+
+        /// <summary>
+        /// Confirms clients readiness for agency submissions
+        /// </summary>
+        /// <returns></returns>
         public bool CanSubmit()
         {
             if (HasHeadShots && Age > 18)
             {
-
                 return true;
-
-
             }
             else
             {
@@ -26,30 +28,15 @@
             }
         }
 
-        //public int GetAge()
-        //{
-        //    int year = DateTime.Now.Year;
-        //    int age = year - (int)(Birthdate?.Year);
-
-        //    return age;
-        //}
-
-        public int GetAge()
-        {
-            int currentYear = DateTime.Now.Year;
-            int age = currentYear - Birthdate.Value.Year;
-            Age = age;
-            return (int)Age;
-        }
-
+        /// <summary>
+        /// Calculates the clients age and returns boolean result
+        /// </summary>
+        /// <returns></returns>
         public bool ClientIsMinor()
         {
             int currentYear = DateTime.Now.Year;
-
-
             int birthyear = Convert.ToInt32(Birthdate.Value.Year);
             Age = currentYear - birthyear;
-
 
             if (Age < 18)
             {
@@ -59,14 +46,17 @@
             {
                 return false;
             }
-
-
         }
-        public int ShowAge()
+
+        /*Not sure if there is use for this yet/anymore*/
+        public int GetAge()
         {
-            int calcAge = (int)Age;
-            return calcAge;
+            int currentYear = DateTime.Now.Year;
+            int age = currentYear - Birthdate.Value.Year;
+            Age = age;
+            return (int)Age;
         }
+
 
     }
 }

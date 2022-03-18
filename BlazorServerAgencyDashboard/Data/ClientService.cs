@@ -29,7 +29,6 @@ namespace BlazorServerAgencyDashboard.Data
             if (dbClient == null)
             {
                 throw new Exception($"No client found. ");
-
             }
             else
             {

@@ -18,9 +18,9 @@ namespace BlazorServerAgencyDashboard.Data
                     Id = 1,
                     FirstName = "Landry",
                     LastName = "Barb",
-                    Age = 36,
+                    Age = 37,
                     Birthdate = new DateTime(1985, 5, 28),
-                    Email = "contact@landrybarb.com",
+                    Email = "somemail@email.com",
                     HasHeadShots = false
 
                 },
@@ -31,10 +31,32 @@ namespace BlazorServerAgencyDashboard.Data
                       LastName = "Haganey",
                       Age = 33,
                       Birthdate = new DateTime(1989, 4, 29),
-                      Email = "jessie.haganey@aol.com",
+                      Email = "testemail@aol.com",
                       HasHeadShots = true
 
-                  }
+                  },
+                   new Client
+                   {
+                       Id = 3,
+                       FirstName = "Loren",
+                       LastName = "Salgado",
+                       Age = 42,
+                       Birthdate = new DateTime(1980, 8, 10),
+                       Email = "anewemail@outlook.com",
+                       HasHeadShots = false
+
+                   },
+                    new Client
+                    {
+                        Id = 4,
+                        FirstName = "Reef",
+                        LastName = "Downes",
+                        Age = 10,
+                        Birthdate = new DateTime(2012, 3, 20),
+                        Email = "reefdowns@gmail.com",
+                        HasHeadShots = true
+
+                    }
                 );
         }
         public DbSet<Client> Clients => Set<Client>();
