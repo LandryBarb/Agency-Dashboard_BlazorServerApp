@@ -1,0 +1,73 @@
+﻿@page "/clients"
+@inject IClientService ClientService
+@inject NavigationManager navMan
+
+<h3>Clients</h3>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Birthdate</th>
+            <th>Email</th>
+            <th>Can Submit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var client in ClientService.Clients)
+        {
+            <tr>
+                <td>@client.FirstName</td>
+                <td>@client.LastName</td>
+                <td>@client.Age</td>
+                <td>@client.Birthdate?.ToShortDateString()</td>
+                <td>@client.Email</td>
+              
+                @if (@client.CanSubmit())
+                {
+                    <td class="text-success">Yes</td>
+                }
+                else if(@client.HasHeadShots == false)
+                {
+                    <td class="text-secondary">Missing Headshots</td>
+                }
+                else if(@client.HasHeadShots == true && client.Age < 18)
+                {
+                    <td class="text-danger">Minor</td>
+                }
+                else
+                {
+                    <td>No</td>
+                }
+
+                <td>
+                    <button class="btn btn-primary" @onclick="(() => ShowClient(client.Id))">
+                        <i class ="oi oi-pencil"></i>
+                    </button>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" @onclick = "AddNewClient">Add New Client</button>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await ClientService.GetClients();
+
+
+    }
+
+    void ShowClient(int id)
+    {
+        navMan.NavigateTo($"client/{id}");
+    }
+    void AddNewClient()
+    {
+        navMan.NavigateTo("client");
+    }
+}
