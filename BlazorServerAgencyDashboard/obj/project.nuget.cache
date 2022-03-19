@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve6by+iGKasqDBhjRxFD23Kb6fiEGgY0GrCtDixwF9/n8kt9HuLJoLKJ+9TzJAZgKy3CMGCoaWsffIpyS1eNuQ==",
+  "dgSpecHash": "7PdT5Gdu7KLMsTiYLrhgt18dYgEjZuepj5OA+9QRVW3M7y+ffml92A+WQmjkW8XT/GvDJGAWf2y+K5dSFxMXDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.2\\microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.2\\microsoft.aspnetcore.components.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.2\\microsoft.aspnetcore.components.analyzers.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.2\\microsoft.aspnetcore.components.forms.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.2\\microsoft.aspnetcore.components.web.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.2\\microsoft.aspnetcore.metadata.6.0.2.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
@@ -22,11 +16,8 @@
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\microsoft.jsinterop\\6.0.2\\microsoft.jsinterop.6.0.2.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\mudblazor.6.0.7.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\Landry Barb II\\.nuget\\packages\\system.io.pipelines\\6.0.2\\system.io.pipelines.6.0.2.nupkg.sha512",
     "C:\\Users\\Landry Barb II\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

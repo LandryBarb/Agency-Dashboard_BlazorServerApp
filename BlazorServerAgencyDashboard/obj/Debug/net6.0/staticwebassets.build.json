@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w0zqdJZhcJsacMenJviV9TDwEKmj3W+WAkZUDrNZ/O4=",
+  "Hash": "089r08D13OhlBYtN0rALtywJF30mjCG99c27WgS/hFE=",
   "Source": "BlazorServerAgencyDashboard",
   "BasePath": "_content/BlazorServerAgencyDashboard",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\MudBlazor.min.css",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\MudBlazor.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\MudBlazor.min.js",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Landry Barb II\\.nuget\\packages\\mudblazor\\6.0.7\\staticwebassets\\MudBlazor.min.js"
-    },
     {
       "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerAgencyDashboard.styles.css",
       "SourceId": "BlazorServerAgencyDashboard",
