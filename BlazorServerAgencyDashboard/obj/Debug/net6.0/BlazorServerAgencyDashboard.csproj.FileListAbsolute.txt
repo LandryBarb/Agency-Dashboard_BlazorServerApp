@@ -30,3 +30,11 @@ C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServe
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.pdb
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.genruntimeconfig.cache
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\ref\BlazorServerAgencyDashboard.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\System.IO.Pipelines.dll
