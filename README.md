@@ -59,3 +59,20 @@
   6:37pm - Refactor Edit/Delete buttons into separate components using Attribute Splatting
  </li>
   </ul>
+
+
+<h2>
+  Devlog - 2022-03-19 - 8:46am
+  </h2>
+   <ul>
+  <li>
+  Installed Mudblazor to test layout and design
+    </li>
+  <li>
+    Removed Mudblazor and Installed Sass for Custom design system
+  </li>
+   <li>
+     Setup Folder structure and began building design system - Color maps/  css variables
+  </li>
+  </ul>
+  
