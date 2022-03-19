@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "089r08D13OhlBYtN0rALtywJF30mjCG99c27WgS/hFE=",
+  "Hash": "R2jzE61GykfW2vltasWz2USJtqRWRhPRq38YOAwpf5U=",
   "Source": "BlazorServerAgencyDashboard",
   "BasePath": "_content/BlazorServerAgencyDashboard",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerAgencyDashboard.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\css\\main.css",
+      "SourceId": "BlazorServerAgencyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
+      "BasePath": "_content/BlazorServerAgencyDashboard",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\css\\main.css.map",
+      "SourceId": "BlazorServerAgencyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
+      "BasePath": "_content/BlazorServerAgencyDashboard",
+      "RelativePath": "css/main.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css.map"
     },
     {
       "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\favicon.ico",

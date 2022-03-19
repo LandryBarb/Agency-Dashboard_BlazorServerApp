@@ -19,49 +19,37 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/ClientsPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1BhZ2UucmF6b3I=
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Buttons/EditButton.razor]
+build_metadata.AdditionalFiles.TargetPath = QnV0dG9uc1xFZGl0QnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/ClientUpsert.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50VXBzZXJ0LnJhem9y
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Buttons/EditDeleteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = QnV0dG9uc1xFZGl0RGVsZXRlQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Client/ClientsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/EditButton.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJ1dHRvbi5yYXpvcg==
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Client/ClientUpsert.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudFVwc2VydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/EditDeleteButton.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Home/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-stg12cibbl
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oz690pca0z
 
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6tjv5hsi1p
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mwt1my540z
 
 [C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
