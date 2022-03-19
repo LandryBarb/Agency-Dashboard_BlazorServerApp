@@ -1,4 +1,7 @@
 ﻿# Agency-Dashboard_BlazorServerApp
+ 
+ ![home](https://user-images.githubusercontent.com/71806398/159093738-14e7047b-9883-4280-bc96-17f0514c98e5.png)
+
 <h2>
   Devlog - 2022-03-18
   </h2>
