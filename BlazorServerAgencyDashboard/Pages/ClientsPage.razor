@@ -13,6 +13,7 @@
             <th>Birthday</th>
             <th>Age</th>
             <th>Email</th>
+            <th>Headshots</th>
             <th>Can Submit</th>
             <th>Minor</th>
         </tr>
@@ -26,7 +27,11 @@
 
                  <td >@client.Birthdate?.ToShortDateString()</td>
                 <td>@client.Age</td>
+
                 <td>@client.Email</td>
+                <td>
+                    <input type="checkbox" @bind-value="client.HasHeadShots" checked="@(client.HasHeadShots?"checked": null)"  />
+                    @(client.HasHeadShots?"Yes": "No")</td>
               
                 @if (client.CanSubmit()) //Might be better as a switch statement
                 {

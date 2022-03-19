@@ -1,0 +1,16 @@
+﻿
+
+    <button @attributes="DeleteParameters" >Delete Client</button>
+
+
+
+@code {
+    
+
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> DeleteParameters{ get; set; }
+
+  
+ 
+}

@@ -1,0 +1,10 @@
+﻿    <button @attributes="EditParameters">@btnText</button>
+
+@code {
+
+    [Parameter]
+    public string btnText { get; set; }
+
+      [Parameter(CaptureUnmatchedValues = true)]
+  public Dictionary<string, object> EditParameters{ get; set; }
+}
