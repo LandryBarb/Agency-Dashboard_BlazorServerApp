@@ -54,4 +54,8 @@
   <li>
     Create method for verifying Client can be submitted for work
   </li>
+ 
+ <li>
+  6:37pm - Refactor Edit/Delete buttons into separate components using Attribute Splatting
+ </li>
   </ul>
