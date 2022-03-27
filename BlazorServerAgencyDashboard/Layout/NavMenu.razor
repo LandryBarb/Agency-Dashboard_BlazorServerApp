@@ -1,35 +1,85 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorServerAgencyDashboard</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+﻿
+
+
+@if(navmenu  == null)
+{
+    <p>Loading</p>
+}
+else
+{
+    <nav class="sidebar">
+    <div class="menu-icon">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+
     </div>
-</div>
+    <AdminCard/>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-      
-          <div class="nav-item px-3">
-      <NavLink class="nav-link" href="/clients">
-          <span class="oi oi-list-rich" aria-hidden="true"></span> Clients
-      </NavLink>
-  </div>
-    </nav>
-</div>
+    <ul class="nav_list ">
+     @foreach (var item in navmenu)
+     {
+         <li class="nav_list_item">
+             <NavLink href="@item.Url" class="nav_list_item_link" ActiveClass="active" Match="NavLinkMatch.All">
+                 @item.Name
+             </NavLink>
+         </li>
+     }
+ </ul>
+av>
+</nav>
 
-@code {
-    private bool collapseNavMenu = true;
+}
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
+@code{
+
+
+
+
+
+    List<NavigationMenu> navmenu = new();
+    protected override void OnInitialized()
     {
-        collapseNavMenu = !collapseNavMenu;
+        navmenu.Add(new()
+            {
+                Id = 1,
+                Name="Home",
+                Url="/"
+            });
+
+            navmenu.Add(new()
+    {
+        Id = 2,
+        Name="Clients",
+        Url="/clients"
+    });
+
+    navmenu.Add(new()
+    {
+        Id = 3,
+        Name="auditions",
+        Url="/auditions"
+    });
+
+    navmenu.Add(new()
+    {
+        Id = 4,
+        Name="Settings",
+        Url="/settings"
+    });
+
+    navmenu.Add(new()
+    {
+        Id = 1,
+        Name="agents",
+        Url="/agents"
+    });
     }
+
+
+
+
+
+
 }

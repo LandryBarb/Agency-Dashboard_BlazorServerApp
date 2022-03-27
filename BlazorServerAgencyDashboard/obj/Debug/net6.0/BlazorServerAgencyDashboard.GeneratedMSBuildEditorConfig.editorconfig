@@ -27,6 +27,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QnV0dG9uc1xFZGl0RGVsZXRlQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Components/AdminCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Components/SectionHeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWN0aW9uSGVhZGVyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/HeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Client/ClientsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XENsaWVudHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,10 +62,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oz690pca0z
-
-[C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-mwt1my540z
 
 [C:/Users/Landry Barb II/Documents/WebDevelopment/Blazor/BlazorServer/BlazorServerAgencyDashboard/BlazorServerAgencyDashboard/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s

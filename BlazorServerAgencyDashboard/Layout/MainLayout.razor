@@ -1,22 +1,49 @@
 ﻿@inherits LayoutComponentBase
-<MudThemeProvider/>
-<MudDialogProvider/>
-<MudSnackbarProvider/>
+@using BlazorPro.BlazorSize
 
-<PageTitle>BlazorServerAgencyDashboard</PageTitle>
+<HeadContent>
+    @if (IsDark && IsAutoTheme)
+    {
+        <link href="css/main-Dark.css" rel="stylesheet" />
 
-<div class="page">
-    <div class="sidebar">
+    }
+    else
+    {
+    <link href="css/main-Light.css" rel="stylesheet" />
+        
+    }
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="BlazingTalentAgency.Client.styles.css" rel="stylesheet" />
+</HeadContent>
+
+<MediaQueryList>
+    <MediaQuery Media="(prefers-color-scheme: dark)" @bind-Matches="IsDark"/>
+
+    <header class="main-header">
+        <h2 class="logo">Blazing Talent Agency</h2>
+         <label for="theme-auto">
+            <p>Detect Theme?</p>
+         <input  type="checkbox" @bind-value="IsAutoTheme"></input>
+           
+
+         </label>
+    </header>
+    
+    
+
         <NavMenu />
-    </div>
+  
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
 
         <article class="content px-4">
             @Body
         </article>
     </main>
-</div>
+]
+</MediaQueryList>
+
+@code{
+    bool IsDark;
+    bool IsAutoTheme;
+}

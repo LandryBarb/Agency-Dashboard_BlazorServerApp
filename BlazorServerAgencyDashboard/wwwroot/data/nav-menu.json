@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "url": "/"
+
+  },
+  {
+    "id": 2,
+    "name": "Clients",
+    "url": "clients"
+
+  },
+  {
+    "id": 3,
+    "name": "Auditions",
+    "url": "auditions"
+
+  },
+  {
+    "id": 4,
+    "name": "Messages",
+    "url": "message"
+
+  },
+  {
+    "id": 5,
+    "name": "Settings",
+    "url": "settings"
+
+  }
+
+]

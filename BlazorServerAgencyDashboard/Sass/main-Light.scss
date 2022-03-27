@@ -1,0 +1,25 @@
+﻿
+
+@use './abstracts' as a;
+
+
+:root {
+    @each $color, $shades in a.$colors {
+        @each $shade, $value in $shades {
+            --clr-#{$color}-#{$shade}: hsl(#{$value});
+        }
+    }
+}
+
+body {
+    --body: var(--clr-black-200);
+    --heading: var(--clr-black-100);
+    --bg: var(--clr-base-lt);
+    --brand: var(--clr-brand-lt);
+    --accent: var(--clr-accent-lt);
+    --white: var(--clr-white-100);
+    --black: var(--clr-black-200);
+    --btn-bg: var(--clr-brand-lt);
+    --btn-text: var(--clr-white-200);
+    --theme-frame: var(--clr-theme-lt);
+}

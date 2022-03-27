@@ -1,0 +1,33 @@
+﻿
+
+
+/*:root{
+    --clr-brand:#6b15a544;
+    --clr-accent:#ffd800;
+}*/
+
+@use './abstracts' as a;
+
+
+:root {
+    @each $color, $shades in a.$colors {
+        @each $shade, $value in $shades {
+            --clr-#{$color}-#{$shade}: hsl(#{$value});
+        }
+    }
+
+    
+}
+
+body {
+    --body: var(--clr-white-100);
+    --heading: var(--clr-white-100);
+    --bg: var(--clr-base-dt);
+    --brand: var(--clr-brand-dt);
+    --accent: var(--clr-accent-dt);
+    --white: var(--clr-white-200);
+    --black:var(--clr-black-100);
+    --btn-bg: var(--clr-brand-dt);
+    --btn-text: var(--clr-white-200);
+    --theme-frame:var(--clr-theme-dt);
+}
