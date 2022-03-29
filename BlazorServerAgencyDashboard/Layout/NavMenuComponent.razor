@@ -1,0 +1,94 @@
+﻿@if (navmenu == null)
+{
+    <p>Loading</p>
+}
+else
+{
+    <nav class="nav">
+        <div class="nav_icon @NavIconClass" @onclick="ToggleNavMenu">
+            <div class="line line_1"></div>
+            <div class="line line_2"></div>
+            <div class="line line_3"></div>
+
+        </div>
+ 
+
+        <ul class="nav_list @NavListClass">
+            @foreach (var item in navmenu)
+            {
+                <li class="nav_list_item">
+
+                    <NavLink href="@item.Url" class="nav_list_item_link" ActiveClass="active" Match="NavLinkMatch.All">
+                        @item.Name
+                    </NavLink>
+                </li>
+            }
+        </ul>
+
+    </nav>
+
+    <SideBarComponent sideBar="@SideBarClass"
+                  sideBarList="@SideBarListClass" />
+
+}
+
+
+@code {
+
+    private bool navIcon = true;
+    private bool navList = true;
+    private bool sideBar = true;
+    private bool sideBarList = true;
+
+    public string? NavIconClass => navIcon ? null : "change";
+    public string? NavListClass => navList ? null : "change";
+    public string? SideBarClass => sideBar ? null : "change";
+    public string? SideBarListClass => sideBarList ? null : "change";
+
+
+
+    private void ToggleNavMenu()
+    {
+        navIcon = !navIcon;
+        navList = !navList;
+        sideBar = !sideBar;
+        sideBarList = !sideBarList;
+    }
+
+
+    List<SideMenu> sidemenu = new();
+
+
+
+    List<NavigationMenu> navmenu = new();
+    protected override void OnInitialized()
+    {
+
+
+
+        navmenu.Add(new()
+            {
+                Id = 1,
+                Name = "Casting",
+                Url = "/casting"
+            });
+        navmenu.Add(new()
+            {
+                Id = 2,
+                Name = "Team",
+                Url = "/team"
+            });
+        navmenu.Add(new()
+            {
+                Id = 3,
+                Name = "Projects",
+                Url = "/projects"
+            });
+    }
+
+
+
+
+
+
+}

@@ -1,7 +1,22 @@
-﻿<header class="header">
-    <div class="logo">Blazing Talent Agency</div>
+﻿<header class="main-header">
+    <h1 class="logo">
+        <a href="/" class="logo_link">
+        BTA    
+        </a>
+    </h1>
+      <label for="theme-auto">
+            <p>Detect Theme?</p>
+         <input  type="checkbox" @bind-value="IsAutoTheme"></input>
+           
+
+         </label>
+    <NavMenuComponent/>
 </header>
 
-@code {
+  
+ 
 
+@code {
+      bool IsDark;
+    bool IsAutoTheme;
 }

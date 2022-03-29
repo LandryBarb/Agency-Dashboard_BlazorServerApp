@@ -1,0 +1,98 @@
+﻿
+@if (sideBarMenu == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <aside class="sidebar">
+          <ul class="sidebar_icon_list">
+                 @foreach (var item in sideBarMenu)
+            {
+                <li class="sidebar_icon_list_item">
+                    <i class="@item.Icon"></i>
+                </li>
+            }
+            </ul>
+        <nav class="sidebar_nav @sideBar">           
+            <ul class="sidebar_nav_list @sideBarList">
+                @foreach (var navItem in sideBarMenu)
+                {
+                    <li class="sidebar_nav_list_item">
+                        <NavLink class="sidebar_nav_list_link" href="@navItem.Url" ActiveClass="active" Match="NavLinkMatch.All">
+                            @navItem.Name
+                        </NavLink> 
+                    </li>
+                }
+            </ul>
+        </nav>
+
+
+    </aside>
+}
+
+
+
+
+@code {
+    [Parameter]
+    public string? sideBar { get; set; }
+
+    [Parameter]
+    public string? sideBarList { get; set; }
+
+    private List<NavigationMenu>? navMenu;
+    List<SideMenu> sideBarMenu = new();
+
+    protected override void OnInitialized()
+    {
+        
+            sideBarMenu.Add(new()
+                {
+                    Id = 1,
+                    Name = "Home",
+                    Url = "/",
+                    Icon="fa-solid fa-chart-line"
+                   
+                });
+
+            sideBarMenu.Add(new()
+                {
+                    Id = 2,
+                    Name = "Clients",
+                    Url = "/clients",
+                     Icon="fa-solid fa-clock"
+                   
+                });
+
+            sideBarMenu.Add(new()
+                {
+                    Id = 3,
+                    Name = "auditions",
+                    Url = "/auditions",
+                     Icon="fa-solid fa-file-pen"
+                    
+                });
+
+            sideBarMenu.Add(new()
+                {
+                    Id = 4,
+                    Name = "Settings",
+                    Url = "/settings",
+                     Icon="fa-solid fa-user-gear"
+                   
+                });
+
+            sideBarMenu.Add(new()
+                {
+                    Id = 5,
+                    Name = "agents",
+                    Url = "/agents",
+                     Icon="fa-solid fa-user-pen"
+                   
+                });
+
+     
+    }
+
+}

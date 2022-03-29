@@ -19,26 +19,26 @@
 <MediaQueryList>
     <MediaQuery Media="(prefers-color-scheme: dark)" @bind-Matches="IsDark"/>
 
-    <header class="main-header">
-        <h2 class="logo">Blazing Talent Agency</h2>
-         <label for="theme-auto">
+  <header class="main-header">
+    <h1 class="logo">
+        <a href="/" class="logo_link">
+        BTA    
+        </a>
+    </h1>
+      <label for="theme-auto">
             <p>Detect Theme?</p>
          <input  type="checkbox" @bind-value="IsAutoTheme"></input>
            
 
          </label>
-    </header>
-    
-    
+    <NavMenuComponent/>
+</header>
 
-        <NavMenu />
-  
 
-    <main>
+    <main class="container">
 
-        <article class="content px-4">
-            @Body
-        </article>
+       
+        @Body
     </main>
 ]
 </MediaQueryList>
@@ -46,4 +46,62 @@
 @code{
     bool IsDark;
     bool IsAutoTheme;
+
+
+      private bool menuIcon = true;
+
+  public string? MenuIconClass => menuIcon ? null : "change";
+
+  private void ToggleMenu()
+  {
+      menuIcon = !menuIcon;
+  }
+
+
+
+
+
+  List<NavigationMenu> navmenu = new();
+  protected override void OnInitialized()
+  {
+      navmenu.Add(new()
+          {
+              Id = 1,
+              Name="Home",
+              Url="/",
+              Icon="fa-solid fa-chart-line"
+          });
+
+          navmenu.Add(new()
+  {
+      Id = 2,
+      Name="Clients",
+      Url="/clients",
+      Icon="fa-solid fa-chart-line"
+  });
+
+  navmenu.Add(new()
+  {
+      Id = 3,
+      Name="auditions",
+      Url="/auditions",
+      Icon="fa-solid fa-chart-line"
+  });
+
+  navmenu.Add(new()
+  {
+      Id = 4,
+      Name="Settings",
+      Url="/settings",
+      Icon="fa-solid fa-chart-line"
+  });
+
+  navmenu.Add(new()
+  {
+      Id = 1,
+      Name="agents",
+      Url="/agents",
+      Icon="fa-solid fa-chart-line"
+  });
+  }
 }

@@ -69,6 +69,7 @@ namespace BlazorServerAgencyDashboard.Data
                 dbClient.Email = client.Email;
                 dbClient.Birthdate = client.Birthdate;
                 dbClient.Age = client.Age;
+                dbClient.ImageUrl = client.ImageUrl;
 
                 await _context.SaveChangesAsync();
                 _navMan.NavigateTo("clients");

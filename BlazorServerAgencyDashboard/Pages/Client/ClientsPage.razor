@@ -5,80 +5,89 @@
 <h3>Clients</h3>
 
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Birthday</th>
-            <th>Age</th>
-            <th>Email</th>
-            <th>Headshots</th>
-            <th>Can Submit</th>
-            <th>Minor</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var client in ClientService.Clients)
-        {
-            <tr>
-                <td>@client.FirstName</td>
-                <td>@client.LastName</td>
+<div class="talent">
 
-                 <td >@client.Birthdate?.ToShortDateString()</td>
-                <td>@client.Age</td>
 
-                <td>@client.Email</td>
-                <td>
-                    <input type="checkbox" @bind-value="client.HasHeadShots" checked="@(client.HasHeadShots?"checked": null)"  />
-                    @(client.HasHeadShots?"Yes": "No")</td>
-              
+    @foreach (var client in ClientService.Clients)
+    {
+        <div class="talent_container">
+            <div class="talent_info">
+                @if (client.HasHeadShots == true)
+                {
+                    <div class="talent_headshot">
+                        <img src="@client.ImageUrl" alt="@client.FirstName" />
+                    </div>
+                }
+                else
+                {
+                    <div class="talent_headshot">
+                        <img src="./images/admin/admin.png" alt="" />
+                    </div>
+                }
+                <div class="talent_stats">
+                    <h4>@client.FirstName @client.LastName </h4>
+                    <p>@client.Birthdate?.ToShortDateString()</p>
+                    <p>@client.Age</p>
+                    <p>@client.Email</p>
+                </div>
+
+            </div>
+
+            <div class="talent_submission">
+                <label for="hasHeadshots">Has Headshots:</label>
+                <input type="checkbox" id="hasHeadshots" @bind-value="client.HasHeadShots" checked="@(client.HasHeadShots?"checked": null)" />
+                @(client.HasHeadShots?"Yes": "No")
+
                 @if (client.CanSubmit()) //Might be better as a switch statement
                 {
-                    <td class="text-success">Yes</td>
+                    <p class="text-success">Can Submit</p>
                 }
-                else if(client.HasHeadShots == false)
+                else if (client.HasHeadShots == false)
                 {
-                    <td class="text-info">Missing Headshots</td>
+                    <p class="text-info">Missing Headshots</p>
                 }
-                else if(client.HasHeadShots == true && client.ClientIsMinor() == true)
+                else if (client.HasHeadShots == true && client.ClientIsMinor() == true)
                 {
-                    <td class="text-secondary">Needs approval</td>
+                    <p class="text-secondary">Needs approval</p>
                 }
                 else
                 {
-                    <td>No</td>
+                    <p>No</p>
                 }
 
-                @if(client.ClientIsMinor())
+                @if (client.ClientIsMinor())
                 {
-                    <td class="text-danger">Minor</td>
+                    <p class="text-danger">Minor</p>
 
                 }
                 else
                 {
-                    <td class="text-success">Adult</td>
-                    
+                    <p class="text-success">Adult</p>
+
                 }
-              
+            </div>
 
-                <td>
-                    <button class="btn btn-primary" @onclick="(() => ShowClient(client.Id))">
-                        <i class ="oi oi-pencil">Edit</i>
-                    </button>
-                </td>
 
-            </tr>
-        }
-    </tbody>
-</table>
-<button class="btn btn-primary" @onclick = "AddNewClient">Add New Client</button>
+
+
+            <button class="btn btn-primary" @onclick="(() => ShowClient(client.Id))">
+                <i class="oi oi-pencil">Edit</i>
+            </button>
+
+
+
+        </div>
+    }
+
+
+</div>
+<button class="btn btn-primary" @onclick="AddNewClient">Add New Client</button>
 
 
 
 @code {
     Client client = new Client();
-   
+
     protected override async Task OnInitializedAsync()
     {
         await ClientService.GetClients();

@@ -1,11 +1,14 @@
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\appsettings.json
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\package-lock.json
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\package.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.staticwebassets.runtime.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.exe
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.deps.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.runtimeconfig.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.dll
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorServerAgencyDashboard.pdb
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorPro.BlazorSize.dll
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
@@ -20,6 +23,7 @@ C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServe
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.RazorAssemblyInfo.cs
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\scopedcss\bundle\BlazorServerAgencyDashboard.styles.css
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\scopedcss\projectbundle\BlazorServerAgencyDashboard.bundle.scp.css
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.csproj.CopyComplete
@@ -28,7 +32,3 @@ C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServe
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.pdb
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\BlazorServerAgencyDashboard.genruntimeconfig.cache
 C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\ref\BlazorServerAgencyDashboard.dll
-C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\package-lock.json
-C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\package.json
-C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\obj\Debug\net6.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
-C:\Users\Landry Barb II\Documents\WebDevelopment\Blazor\BlazorServer\BlazorServerAgencyDashboard\BlazorServerAgencyDashboard\bin\Debug\net6.0\BlazorPro.BlazorSize.dll

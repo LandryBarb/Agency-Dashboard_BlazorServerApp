@@ -21,7 +21,8 @@ namespace BlazorServerAgencyDashboard.Data
                     Age = 37,
                     Birthdate = new DateTime(1985, 5, 28),
                     Email = "somemail@email.com",
-                    HasHeadShots = false
+                    HasHeadShots = false,
+                    ImageUrl = "./images/headshots/person1.jpg"
 
                 },
                   new Client
@@ -32,7 +33,9 @@ namespace BlazorServerAgencyDashboard.Data
                       Age = 33,
                       Birthdate = new DateTime(1989, 4, 29),
                       Email = "testemail@aol.com",
-                      HasHeadShots = true
+                      HasHeadShots = true,
+                      ImageUrl = "./images/headshots/person2.jpg"
+
 
                   },
                    new Client
@@ -43,7 +46,9 @@ namespace BlazorServerAgencyDashboard.Data
                        Age = 42,
                        Birthdate = new DateTime(1980, 8, 10),
                        Email = "anewemail@outlook.com",
-                       HasHeadShots = false
+                       HasHeadShots = false,
+                       ImageUrl = "./images/headshots/person3.jpg"
+
 
                    },
                     new Client
@@ -54,7 +59,9 @@ namespace BlazorServerAgencyDashboard.Data
                         Age = 10,
                         Birthdate = new DateTime(2012, 3, 20),
                         Email = "reefdowns@gmail.com",
-                        HasHeadShots = true
+                        HasHeadShots = true,
+                        ImageUrl = "./images/headshots/person4.jpg"
+
 
                     }
                 );

@@ -12,11 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Sass\NewFolder\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="sass Sass:wwwroot/css Pages:Pages  --style compressed --load-path=Styles --update" />
+    <Exec Command="sass Sass:wwwroot/css Pages:Pages --style compressed --load-path=Styles --update" />
   </Target>
 
 </Project>

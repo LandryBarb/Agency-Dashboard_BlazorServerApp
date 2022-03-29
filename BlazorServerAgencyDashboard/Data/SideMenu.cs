@@ -1,6 +1,6 @@
 ﻿namespace BlazorServerAgencyDashboard.Data
 {
-    public class NavigationMenu
+    public class SideMenu
     {
         public int Id { get; set; }
         public string? Name { get; set; }

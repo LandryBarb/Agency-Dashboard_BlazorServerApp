@@ -9,6 +9,7 @@
         public int? Age { get; set; }
         public DateTime? Birthdate { get; set; }
         public bool HasHeadShots { get; set; } = false;
+        public string? ImageUrl { get; set; }
 
 
 

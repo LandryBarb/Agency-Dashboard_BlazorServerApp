@@ -1,27 +1,44 @@
 ﻿@use '../abstracts' as *;
 
-.header {
-    color: var(--heading);
+
+.dashboard {
+    display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows:repeat(5, 1fr);
+  grid-template-areas:
+      'talent talent auditions settings'
+      'talent talent agents settings'
+      'talent talent agents settings'
+      'submissions projects other settings'
+      'submissions projects other settings'
+        ;
+    gap: var(--sp-lg-5);
+    padding-block-start: 4rem;
+    .talent{
+        grid-area:talent;
+
+    }
+    .auditions{
+        grid-area:auditions;
+    }
+    .settings{
+        grid-area:settings;
+    }
+    .submissions{
+        grid-area:submissions;
+    }
+    .projects{
+        grid-area:projects;
+    }
+    .other{
+        grid-area:other;
+    }
+
+    & > * {
+        background-color: var(--theme-frame);
+        height:5rem;
+    }
 }
 
-.container{
- 
-  background-color:var(--bg);
-    display:grid;
-    grid-template-columns:1fr;
-    justify-items:center;
-    align-content:center;
-    height:100vh;
-}
-
-p{
-    max-width:60ch;
-    text-align:center;
-    color:var(--body);
-}
-.header-btn{
-    background-color:var(--btn-bg);
-    color:var(--btn-text);
-}
 
 

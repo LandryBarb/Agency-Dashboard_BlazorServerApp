@@ -43,6 +43,7 @@ ol[role='list'] {
 
 li {
     list-style: none;
+    color:var(--body);
 }
 
 /* Set core root defaults */
@@ -55,6 +56,9 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    min-width:100vw;
+    overflow-x:hidden;
+    background-color:var(--bg);
 }
 
 /* A elements that don't have a class get default styles */
@@ -92,6 +96,18 @@ select {
 /* apply back the draggable feature - exist only in Chromium and Safari */
 :where([draggable="true"]) {
     -webkit-user-drag: element;
+}
+
+
+/**My Specs*/
+html{
+    font-weight:var(--fw-base);
+}
+
+p {
+    max-width: 60ch;
+    text-align: center;
+    color: var(--body);
 }
 
 
