@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e8gcNU8URT6npEE3CpapoVmQZBb4AKVL20WZebYDshk=",
+  "Hash": "FL2BKOPLSXHYTVzqmeUeMF9t1KEX5j4sSd6AbXwYiY0=",
   "Source": "BlazorServerAgencyDashboard",
   "BasePath": "_content/BlazorServerAgencyDashboard",
   "Mode": "Default",
@@ -83,40 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Landry Barb II\\.nuget\\packages\\blazorpro.blazorsize\\6.1.2\\staticwebassets\\blazorSizeResizeModule.js"
-    },
-    {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerAgencyDashboard.styles.css",
-      "SourceId": "BlazorServerAgencyDashboard",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "BlazorServerAgencyDashboard.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerAgencyDashboard.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerAgencyDashboard.bundle.scp.css",
-      "SourceId": "BlazorServerAgencyDashboard",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "BlazorServerAgencyDashboard.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerAgencyDashboard.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\css\\main.css",
@@ -272,12 +238,12 @@
       "OriginalItemSpec": "wwwroot\\images\\admin\\admin.png"
     },
     {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\person1.jpg",
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs1.jpg",
       "SourceId": "BlazorServerAgencyDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
       "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "images/headshots/person1.jpg",
+      "RelativePath": "images/headshots/hs1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\headshots\\person1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\person2.jpg",
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs2.jpg",
       "SourceId": "BlazorServerAgencyDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
       "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "images/headshots/person2.jpg",
+      "RelativePath": "images/headshots/hs2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\headshots\\person2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\person3.jpg",
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs3.jpg",
       "SourceId": "BlazorServerAgencyDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
       "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "images/headshots/person3.jpg",
+      "RelativePath": "images/headshots/hs3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\headshots\\person3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\person4.jpg",
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs4.jpg",
       "SourceId": "BlazorServerAgencyDashboard",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
       "BasePath": "_content/BlazorServerAgencyDashboard",
-      "RelativePath": "images/headshots/person4.jpg",
+      "RelativePath": "images/headshots/hs4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,7 +303,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\headshots\\person4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs5.jpg",
+      "SourceId": "BlazorServerAgencyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
+      "BasePath": "_content/BlazorServerAgencyDashboard",
+      "RelativePath": "images/headshots/hs5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\images\\headshots\\hs6.jpg",
+      "SourceId": "BlazorServerAgencyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Landry Barb II\\Documents\\WebDevelopment\\Blazor\\BlazorServer\\BlazorServerAgencyDashboard\\BlazorServerAgencyDashboard\\wwwroot\\",
+      "BasePath": "_content/BlazorServerAgencyDashboard",
+      "RelativePath": "images/headshots/hs6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\headshots\\hs6.jpg"
     }
   ]
 }

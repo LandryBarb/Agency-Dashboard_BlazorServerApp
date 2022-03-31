@@ -2,7 +2,6 @@
 @inject IClientService ClientService
 @inject NavigationManager navMan
 
-<h3>Clients</h3>
 
 
 <div class="talent">
@@ -24,14 +23,15 @@
                         <img src="./images/admin/admin.png" alt="" />
                     </div>
                 }
-                <div class="talent_stats">
+             
+
+            </div>
+               <div class="talent_stats">
                     <h4>@client.FirstName @client.LastName </h4>
                     <p>@client.Birthdate?.ToShortDateString()</p>
                     <p>@client.Age</p>
                     <p>@client.Email</p>
                 </div>
-
-            </div>
 
             <div class="talent_submission">
                 <label for="hasHeadshots">Has Headshots:</label>

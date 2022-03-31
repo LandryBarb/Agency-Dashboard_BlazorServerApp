@@ -1,42 +1,57 @@
 ﻿@use '../abstracts' as *;
 
 
+
+
+
+
 .dashboard {
     display: grid;
-  grid-template-columns:repeat(4, 1fr);
-  grid-template-rows:repeat(5, 1fr);
-  grid-template-areas:
-      'talent talent auditions settings'
-      'talent talent agents settings'
-      'talent talent agents settings'
-      'submissions projects other settings'
-      'submissions projects other settings'
-        ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: var(--sp-lg-5);
     padding-block-start: 4rem;
-    .talent{
-        grid-area:talent;
+    min-height: 100vh;
 
+    .talent {
+        grid-column: 1/-1;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: space-between;
+      
+        
+
+
+        .box {
+            background-color: red;
+            height: 100%;
+            width: 20rem;
+        }
     }
-    .auditions{
-        grid-area:auditions;
+
+    .auditions {
+        grid-area: auditions;
     }
-    .settings{
-        grid-area:settings;
+
+    .settings {
+        grid-area: settings;
     }
-    .submissions{
-        grid-area:submissions;
+
+    .submissions {
+        grid-area: submissions;
     }
-    .projects{
-        grid-area:projects;
+
+    .projects {
+        grid-area: projects;
     }
-    .other{
-        grid-area:other;
+
+    .other {
+        grid-area: other;
     }
 
     & > * {
         background-color: var(--theme-frame);
-        height:5rem;
+        min-height: 7rem;
     }
 }
 

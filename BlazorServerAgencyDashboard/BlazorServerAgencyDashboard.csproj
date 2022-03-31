@@ -12,12 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Sass\NewFolder\" />
+    <Folder Include="Sass\Pages\Home\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
-
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="sass Sass:wwwroot/css Pages:Pages --style compressed --load-path=Styles --update" />
-  </Target>
 
 </Project>
