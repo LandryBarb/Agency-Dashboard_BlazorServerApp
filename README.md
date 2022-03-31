@@ -76,3 +76,16 @@
   </li>
   </ul>
   
+  
+<h2>
+  Devlog - 2022-03-29 - 3:56pm
+  </h2>
+   <ul>
+  <li>
+ ReDesign of Layout
+    </li>
+  <li>
+  Added Theme Switcher funnction - Option to use auto detect system preferences
+  </li>
+  
+  </ul>
